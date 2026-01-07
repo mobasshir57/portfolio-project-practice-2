@@ -1,5 +1,222 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .font-family{
     font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
+}
+.hero-banner{
+    width: 100%;
+    height: 808px;
+    background: url(../images/banner/banner3.png);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;        
+    justify-content: flex-end;  
+    margin-bottom: 131px;
+}
+.hero-banner .hero-text{
+      max-width: 520px;
+    margin-right: 230px;
+    text-align: right;
+}
+.hero-banner .hero-text h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 24px;
 
+}
+.hero-banner .hero-text p{
+    font-size: 16px;
+    line-height:  26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+ .btn1{
+    width: 160px;
+    padding: 21px 25px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    color: #005FAC;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.my-failures{
+    width: 1072px;
+    margin: 0px auto;
+    display: flex;
+    margin-bottom: 130px;
+}
+.my-failures .image{
+    height: 723.3px;
+    width: 569px;
+    gap: 100pxpx;
+   
+}
+.my-failures .fail-text{
+    margin: 235px 0px 85px 87px;
+}
+.my-failures .fail-text h2{ 
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    width: 288px;
+    margin-bottom: 24px;
+}
+.my-failures .fail-text .ttt{
+      font-size: 16px;
+    line-height: 26px; 
+    color: #444343;
+    margin-bottom: 16px;
+}
+.my-failures .fail-text .tt{
+    font-size: 16px;
+    line-height: 26px; 
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+
+.my-plan{
+    width: 1141px;
+    margin: 0px auto;
+    margin-bottom: 123px;
+}
+.my-plan h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.my-plan .card{
+    display: flex;
+    gap: 86px;
+}
+.card .card-info{
+
+}
+.card .card-info img{
+    width: 90px;
+    margin-bottom: 25px;
+    align-items: left;
+}
+.card .card-info h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.card .card-info p{
+    font-size: 25px;
+    color: #737272;
+    text-align: center;
+}
+
+.bottom-banner{
+    background: url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 307px;
+    background: url(../images/gradient1.png);
+    background-repeat: no-repeat;
+    opacity: -100px;
+    width: 1140px;
+    height: 307px;
+    margin: 0px auto;
+}
+.bottom-banner .btm-text{
+    width: 460px;
+    margin-top: 100px;
+    margin-left: 64px;
+    
+    
+}
+.bottom-banner .btm-text h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer1{
+    width: 100%;
+    background-color: #151414;
+    margin-top: 137px;
+    color: #FFFFFF;
+}
+.div-footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 331px;
+}
+.div-footer .left{
+    width: 490px;
+}
+.div-footer .left h3{
+    font-size: 45px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.left .f-text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.left .mail{
+     font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.left .phone{
+     font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.left .footer-img{
+    display: flex;
+    gap: 17px;
+}
+
+.div-footer .right{
+    width: 325px;
+}
+.div-footer .right h4{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+.type{
+    width: 325px;
+    padding: 22px ;
+    margin-bottom: 16px;
+    font-size: 18px;
+   color: #F3F3F3;
+    background-color: #151414;
+    border: white 1px solid;
+    border-radius: 5px;
+}
+.right .btn{
+    width: 160px;
+    padding: 21px 25px;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
 }
